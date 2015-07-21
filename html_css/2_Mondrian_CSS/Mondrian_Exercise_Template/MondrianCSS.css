@@ -32,6 +32,8 @@ body, html {
 }
 
 #bottomrow {
+    height: 100px;
+    width: 400px;
     
 }
 
@@ -77,6 +79,8 @@ width: 100px;
 }
 
 #widebox {
+            height: 100px;
+width: 260px;
 
 }
 
@@ -114,6 +118,8 @@ width: 100px;
 }
 
 #divider5 {
+    width: 10px;
+    height: 100px;
 
 }
 
