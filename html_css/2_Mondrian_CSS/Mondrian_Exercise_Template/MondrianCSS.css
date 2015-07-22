@@ -148,3 +148,42 @@ width: 100px;
 .right {
      float: right;
 }
+
+@-webkit-keyframes redBlue {  
+  0% { background-color: red; }
+  50% { background-color: red; }
+  51% { background-color: blue; }
+  100% { background-color: blue; }
+}
+
+.blinkRed {
+    -webkit-animation-name: redBlue;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 2s; 
+}  
+
+@-webkit-keyframes blueRed {  
+  0% { background-color: blue; }
+  50% { background-color: blue; }
+  51% { background-color: yellow; }
+  100% { background-color: yellow; }
+}
+
+.blinkBlue {
+    -webkit-animation-name: blueRed;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 3s; 
+}  
+
+@-webkit-keyframes yellowBlue {  
+  0% { background-color: yellow; }
+  50% { background-color: yellow; }
+  51% { background-color: red; }
+  100% { background-color: red; }
+}
+
+.blinkYellow {
+    -webkit-animation-name: yellowBlue;  
+    -webkit-animation-iteration-count: infinite;  
+    -webkit-animation-duration: 2.5s; 
+}  
