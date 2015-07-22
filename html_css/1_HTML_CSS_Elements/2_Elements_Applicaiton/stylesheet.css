@@ -1,39 +1,47 @@
 /* your basic elements */
 html body {
-    background-color: #2EB8E6;
+
+    background-color: black;
+    background-image: url("images/cartographer.png");
     text-align: center;
-    padding-left: 10px;
+    padding-left: 10px; 
+    
+   
+
 }
 
 /* your text - colour and font*/
 
 h1{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 40pt;
-    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 120pt;
+    font-weight: 300;
     line-height: 10px;
     text-shadow: 2px 5px 0 rgba(0,0,0,0.1);
-    color: #CC52AD;
+    color: #66FFFF;
 
 }
 
 h3{
-	font-family: Verdana;
-    font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 30pt;
+    font-weight: ;
     text-transform: uppercase;
-    color: pink;
+    color: white;
 }
 
 h5{
-	font-family: Verdana;
+	font-family: 'Open Sans', sans-serif;
     color: white;
     line-height: 2px;
     text-align: left;
-    padding-left: 300px;
+    padding-left: 80px;
 }
 
 p{
+    font-family: 'Open Sans', sans-serif;
     font-size: 10pt;
+    color: white;
     /*font-size: 10px;*/
 }
 
@@ -54,9 +62,10 @@ ol{
 ul{
 	font-family: Arial;
     font-size: 10pt;
-    color: grey;
+    color: lightgrey;
     text-align: left;
-    padding-left: 300px;
+    padding-left: 80px;
+    padding-right: 80px
 }
 
 ul a {
@@ -74,21 +83,49 @@ ul a {
 /* ID's */
 #headFrame {
     color:white;
-    background-color: #FF99CC;
-    padding: 10px 10px 10px 10%;
-    box-shadow: 
-        inset 0 0 0 1px rgba(53,86,129, 0.4), 
-        inset 0 0 5px rgba(53,86,129, 0.5);
-    border-radius: 0 10px 0 10px;
+    background-image: url("images/tile2.gif"); 
+    padding: 10px 100px 10px 10%;
+
+  
+}
+
+#textCard {
+    color:white;
+   
+        
+        border-radius: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10%;
 }
 
 /* classes */
-.pinkFrame{
+.brainFrame{
     color:white;
-    background-color: #FF99CC;
+    
+    height: 300px;
     padding: 5px;
+    vertical-align: center;
 }
 .blueFrame{
     color:white;
     padding: 5px;
+}
+.myButton {
+    background-color:#5fcbe6;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Verdana;
+    font-size:21px;
+    padding:16px 31px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background-color:#33cbd6;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
 }
